@@ -5,6 +5,3 @@ export const todoTable = pgTable("todo_table", {
   text: text("text").notNull(),
   done: boolean("done").notNull().default(false),
 });
-
-export type InsertTodo = typeof todoTable.$inferInsert;
-export type SelectTodo = typeof todoTable.$inferSelect;
