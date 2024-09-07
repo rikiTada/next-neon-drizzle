@@ -1,0 +1,42 @@
+.
+├── README.md
+├── bun.lockb
+├── doc
+│   └── drizzle-neon.md
+├── drizzle
+│   ├── 0000_sturdy_proudstar.sql
+│   └── meta
+│       ├── 0000_snapshot.json
+│       └── _journal.json
+├── drizzle.config.ts
+├── env.d.ts
+├── next-env.d.ts
+├── next.config.mjs
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── next.svg
+│   └── vercel.svg
+├── src
+│   ├── app
+│   │   ├── api
+│   │   │   └── hello
+│   │   │       └── route.ts
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── not-found.tsx
+│   │   └── page.tsx
+│   └── server
+│       ├── db
+│       │   ├── index.ts
+│       │   ├── schema.ts
+│       │   └── type.ts
+│       └── service
+│           └── todoService.ts
+├── tailwind.config.ts
+├── tree.txt
+├── tsconfig.json
+└── wrangler.toml
+
+11 directories, 28 files
